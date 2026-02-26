@@ -2,6 +2,8 @@
   --bg: #edeff6;
   --purple: #6f43e9;
   --dark: #232535;
+  --font-body: 'Poppins', sans-serif;
+  --font-display: 'Outfit', sans-serif;
 }
 
 * {
@@ -10,7 +12,7 @@
 
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-body);
   background: var(--bg);
   color: var(--dark);
 }
@@ -33,6 +35,8 @@ header {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
+  font-family: var(--font-display);
+  font-weight: 500;
 }
 
 .topbar .right {
@@ -48,7 +52,10 @@ header {
 }
 
 .logo {
+  font-family: var(--font-display);
   font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 0.2px;
   color: #4f3bb7;
 }
 
@@ -62,7 +69,9 @@ header {
   padding: 0;
   display: flex;
   gap: 34px;
+  font-family: var(--font-display);
   font-weight: 500;
+  font-size: 22px;
 }
 
 .actions {
@@ -78,6 +87,8 @@ header {
   padding: 12px 16px;
   position: relative;
   font-size: 18px;
+  font-family: var(--font-display);
+  font-weight: 600;
 }
 
 .icon-btn small {
@@ -128,6 +139,8 @@ header {
   border-radius: 12px;
   padding: 8px 12px;
   font-size: 16px;
+  font-family: var(--font-display);
+  font-weight: 600;
   margin: 0 0 16px;
 }
 
@@ -135,6 +148,9 @@ h1 {
   margin: 0;
   font-size: 46px;
   line-height: 1.18;
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: 0.2px;
 }
 
 h1 span {
@@ -144,8 +160,9 @@ h1 span {
 .subtext {
   color: #73758d;
   max-width: 580px;
-  margin: 14px 0 14px;
+  margin: 14px 0;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .fake-select,
@@ -159,7 +176,10 @@ h1 span {
   color: #4a4f68;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background: #fff;
+  font-family: var(--font-display);
+  font-weight: 500;
 }
 
 .fake-select.dim {
@@ -171,7 +191,7 @@ h1 span {
   background: #c8c9d0;
   color: #62667a;
   border: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .hero-figure {
@@ -204,6 +224,7 @@ h1 span {
   font-size: 34px;
   margin: 18px 0;
   line-height: 1.2;
+  font-family: var(--font-display);
   font-weight: 500;
 }
 
@@ -252,6 +273,8 @@ h1 span {
 .services h2 {
   font-size: 34px;
   margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
 }
 
 .services h2 span {
@@ -262,6 +285,7 @@ h1 span {
   margin-top: 6px;
   color: #6a6f86;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .service-grid {
@@ -279,12 +303,15 @@ h1 span {
   align-items: center;
   justify-content: space-between;
   font-size: 32px;
+  font-family: var(--font-display);
+  font-weight: 600;
 }
 
 .service small {
   display: block;
   font-size: 28px;
   opacity: 0.95;
+  font-weight: 500;
 }
 
 .service i {
