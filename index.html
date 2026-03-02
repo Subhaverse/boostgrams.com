@@ -1,98 +1,219 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BoostGrams Style Landing</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="topbar container">
-        <div class="left">&#9993; Contact</div>
-        <div class="right">
-          <span>&copy; Compensation Request</span>
-          <span>|</span>
-          <span>&#8981; Search Order</span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BoostGrams Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg aria-hidden="true" width="0" height="0" style="position:absolute;left:-9999px;overflow:hidden;">
+    <defs>
+      <symbol id="badge-intro" viewBox="0 0 45 45">
+        <path d="M26.7486 37.0511C24.9945 40.2766 20.3929 40.3569 18.5273 37.1946V37.1946C17.5257 35.4967 15.5752 34.599 13.6341 34.9425V34.9425C10.0186 35.5821 7.08675 32.0345 8.39597 28.6043V28.6043C9.09891 26.7625 8.58468 24.6779 7.10586 23.3744V23.3744C4.35156 20.9466 5.29721 16.4424 8.79536 15.3273V15.3273C10.6736 14.7286 11.9828 13.0268 12.0799 11.0579V11.0579C12.2608 7.39075 16.3718 5.32181 19.4247 7.36151V7.36151C21.0639 8.45665 23.2106 8.41917 24.8106 7.2675V7.2675C27.7904 5.1225 31.9712 7.0467 32.28 10.7053V10.7053C32.4457 12.6696 33.8135 14.3247 35.7115 14.8575V14.8575C39.2464 15.8498 40.3487 20.3182 37.6808 22.8407V22.8407C36.2484 24.1951 35.8072 26.2964 36.574 28.1124V28.1124C38.0021 31.4949 35.1958 35.1427 31.5603 34.6296V34.6296C29.6083 34.3541 27.6904 35.3193 26.7486 37.0511V37.0511Z" fill="#7844E4"/>
+        <g clip-path="url(#clip0_857_11146)">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5693 14.8848C20.711 14.8848 19.2047 16.3911 19.2047 18.2493C19.2047 20.1076 20.711 21.6139 22.5693 21.6139C24.4275 21.6139 25.9338 20.1076 25.9338 18.2493C25.9338 16.3911 24.4275 14.8848 22.5693 14.8848ZM20.2672 18.2493C20.2672 16.9779 21.2978 15.9473 22.5693 15.9473C23.8407 15.9473 24.8713 16.9779 24.8713 18.2493C24.8713 19.5208 23.8407 20.5514 22.5693 20.5514C21.2978 20.5514 20.2672 19.5208 20.2672 18.2493Z" fill="white"/>
+          <path d="M26.8193 16.3014C26.5259 16.3014 26.288 16.5393 26.288 16.8327C26.288 17.1261 26.5259 17.3639 26.8193 17.3639C27.7943 17.3639 28.413 18.0055 28.413 18.6035C28.413 19.2015 27.7943 19.8431 26.8193 19.8431C26.5259 19.8431 26.288 20.0809 26.288 20.3743C26.288 20.6678 26.5259 20.9056 26.8193 20.9056C28.1915 20.9056 29.4755 19.9615 29.4755 18.6035C29.4755 17.2455 28.1915 16.3014 26.8193 16.3014Z" fill="white"/>
+          <path d="M18.8505 16.8327C18.8505 16.5393 18.6127 16.3014 18.3193 16.3014C16.9471 16.3014 15.663 17.2455 15.663 18.6035C15.663 19.9615 16.9471 20.9056 18.3193 20.9056C18.6127 20.9056 18.8505 20.6678 18.8505 20.3743C18.8505 20.0809 18.6127 19.8431 18.3193 19.8431C17.3442 19.8431 16.7255 19.2015 16.7255 18.6035C16.7255 18.0055 17.3442 17.3639 18.3193 17.3639C18.6127 17.3639 18.8505 17.1261 18.8505 16.8327Z" fill="white"/>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5693 22.6764C21.3054 22.6764 20.1372 23.017 19.2694 23.5955C18.4053 24.1716 17.788 25.0257 17.788 26.041C17.788 27.0563 18.4053 27.9105 19.2694 28.4865C20.1372 29.065 21.3054 29.4056 22.5693 29.4056C23.8331 29.4056 25.0014 29.065 25.8691 28.4865C26.7332 27.9105 27.3505 27.0563 27.3505 26.041C27.3505 25.0257 26.7332 24.1716 25.8691 23.5955C25.0014 23.017 23.8331 22.6764 22.5693 22.6764ZM18.8505 26.041C18.8505 25.4915 19.1846 24.929 19.8587 24.4796C20.5291 24.0326 21.4859 23.7389 22.5693 23.7389C23.6526 23.7389 24.6094 24.0326 25.2798 24.4796C25.9539 24.929 26.288 25.4915 26.288 26.041C26.288 26.5905 25.9539 27.153 25.2798 27.6025C24.6094 28.0494 23.6526 28.3431 22.5693 28.3431C21.4859 28.3431 20.5291 28.0494 19.8587 27.6025C19.1846 27.153 18.8505 26.5905 18.8505 26.041Z" fill="white"/>
+          <path d="M27.717 23.8022C27.7799 23.5156 28.0631 23.3342 28.3497 23.3971C29.0311 23.5465 29.645 23.8164 30.1008 24.1894C30.5562 24.562 30.8922 25.0743 30.8922 25.6868C30.8922 26.2994 30.5562 26.8117 30.1008 27.1843C29.645 27.5573 29.0311 27.8272 28.3497 27.9766C28.0631 28.0394 27.7799 27.8581 27.717 27.5715C27.6542 27.2849 27.8355 27.0016 28.1221 26.9388C28.6834 26.8157 29.1319 26.6043 29.428 26.362C29.7244 26.1195 29.8297 25.8826 29.8297 25.6868C29.8297 25.4911 29.7244 25.2542 29.428 25.0117C29.1319 24.7694 28.6834 24.558 28.1221 24.4349C27.8355 24.3721 27.6542 24.0888 27.717 23.8022Z" fill="white"/>
+          <path d="M16.7888 23.3971C17.0754 23.3342 17.3587 23.5156 17.4215 23.8022C17.4844 24.0888 17.303 24.3721 17.0164 24.4349C16.4551 24.558 16.0066 24.7694 15.7105 25.0117C15.4141 25.2542 15.3088 25.4911 15.3088 25.6868C15.3088 25.8826 15.4141 26.1195 15.7105 26.362C16.0066 26.6043 16.4551 26.8157 17.0164 26.9388C17.303 27.0016 17.4844 27.2849 17.4215 27.5715C17.3587 27.8581 17.0754 28.0394 16.7888 27.9766C16.1075 27.8272 15.4935 27.5573 15.0377 27.1843C14.5823 26.8117 14.2463 26.2994 14.2463 25.6868C14.2463 25.0743 14.5823 24.562 15.0377 24.1894C15.4935 23.8164 16.1075 23.5465 16.7888 23.3971Z" fill="white"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_857_11146">
+            <rect width="17" height="17" fill="white" transform="translate(14.0693 13.999)"/>
+          </clipPath>
+        </defs>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="top-strip">
+    <div class="container strip-wrap">
+      <span>Contact</span>
+      <div class="strip-right">
+        <span>Compensation Request</span>
+        <span>Search Order</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <div class="container nav-wrap">
+      <div class="brand">
+        <div class="brand-icon"></div>
+        <span>BOOST<span>GRAMS</span></span>
+      </div>
+
+      <ul class="menu">
+        <li>Home</li>
+        <li>Services</li>
+        <li>Organic Growth</li>
+        <li>BoostBlog</li>
+        <li>Free Tools</li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="mini-btn">1</button>
+        <button class="mini-btn">0</button>
+        <button class="login-btn">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="page">
+    <section class="hero container">
+      <article class="hero-main card">
+        <div class="form-col">
+          <div class="content">
+            <div class="hero-intro">
+              <div class="badge">
+                <div class="badge-main">
+                  <svg class="svg-icon badge-icon" aria-hidden="true">
+                    <use href="#badge-intro"></use>
+                  </svg>
+                  <h1>Buy Instagram Followers</h1>
+                </div>
+              </div>
+
+              <span class="slide-head">BoostGrams Power! <span class="slide-title">Place your order quickly!</span>
+              </span>
+            </div>
+            <p class="slide-desc">
+              <span class="slide-desc-line">Reach your target number of followers in minutes with</span>
+              <span class="slide-desc-line">our fast service infrastructure!</span>
+            </p>
+
+            <div class="form" data-submit-url="https://boostgrams.com/action/?conError" role="form" aria-label="Quick order form">
+              <div class="dropdown-wrapper">
+                <div class="dropdown" data-dropdown="platform" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-label="Select Platform" tabindex="0">
+                  <span>Social Media Platform</span>
+                  <div class="dropdown-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.75 6.75L9 12L14.25 6.75" stroke="#666F94" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul data-dropdown-menu="platform" role="listbox" aria-label="Platforms">
+                  <li data-id="1" data-icon="fab fa-instagram" role="option"><i class="fab fa-instagram" aria-hidden="true"></i>Instagram</li>
+                  <li data-id="2" data-icon="fab fa-twitter" role="option"><i class="fab fa-twitter" aria-hidden="true"></i>Twitter (X)</li>
+                  <li data-id="6" data-icon="fab fa-youtube" role="option"><i class="fab fa-youtube" aria-hidden="true"></i>YouTube</li>
+                  <li data-id="7" data-icon="fab fa-telegram" role="option"><i class="fab fa-telegram" aria-hidden="true"></i>Telegram</li>
+                  <li data-id="8" data-icon="fab fa-facebook" role="option"><i class="fab fa-facebook" aria-hidden="true"></i>Facebook</li>
+                  <li data-id="10" data-icon="fab fa-spotify" role="option"><i class="fab fa-spotify" aria-hidden="true"></i>Spotify</li>
+                  <li data-id="13" data-icon="fab fa-twitch" role="option"><i class="fab fa-twitch" aria-hidden="true"></i>Twitch</li>
+                  <li data-id="17" data-icon="fab fa-discord" role="option"><i class="fab fa-discord" aria-hidden="true"></i>Discord</li>
+                  <li data-id="25" data-icon="fas fa-at" role="option"><i class="fas fa-at" aria-hidden="true"></i>Threads</li>
+                  <li data-id="28" data-icon="fab fa-linkedin" role="option"><i class="fab fa-linkedin" aria-hidden="true"></i>Linkedin</li>
+                  <li data-id="45" data-icon="fa-brands fa-whatsapp" role="option"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i>Whatsapp</li>
+                  <li data-id="46" data-icon="fa-brands fa-snapchat" role="option"><i class="fa-brands fa-snapchat" aria-hidden="true"></i>Snapchat</li>
+                </ul>
+              </div>
+
+              <div class="dropdown-wrapper">
+                <div class="dropdown disabled" data-dropdown="category" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-label="Select category" tabindex="0">
+                  <span>Select Category</span>
+                  <div class="dropdown-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.75 6.75L9 12L14.25 6.75" stroke="#666F94" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul data-dropdown-menu="category" role="listbox" aria-label="Categories"></ul>
+              </div>
+
+              <div class="dropdown-wrapper">
+                <div class="dropdown disabled" data-dropdown="package" role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-label="Choose your package" tabindex="0">
+                  <span>Choose a Package</span>
+                  <div class="dropdown-icon" aria-hidden="true">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M3.75 6.75L9 12L14.25 6.75" stroke="#666F94" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul data-dropdown-menu="package" role="listbox" aria-label="Packages List"></ul>
+              </div>
+
+              <button class="submit" disabled aria-label="Browse Instagram follower packages.">Review the packages</button>
+            </div>
+          </div>
+        </div>
+        <div class="character-col">
+          <div class="image">
+            <img class="img-main" src="https://boostgrams.com/upload/1kk-849031.png" alt="Place your order quickly!" fetchpriority="high" loading="eager" decoding="sync">
+          </div>
+        </div>
+      </article>
+
+      <article class="side-card card youtube-card">
+        <h3>YouTube Services</h3>
+        <strong>Explore All</strong>
+        <div class="small-blob orange"></div>
+        <img class="side-character" src="Screenshot 2026-02-26 1933381.png" alt="Character">
+      </article>
+
+      <article class="side-card card tools-card">
+        <h3>Free Tools</h3>
+        <strong class="free">Use Freely!</strong>
+        <div class="small-blob purple"></div>
+        <div class="image">
+          <img class="side-character" src="Screenshot 2026-02-26 1941360.png" alt="Character">
+        </div>
+      </article>
+    </section>
+
+    <section class="services container">
+      <h2>Social Media <span>Services</span></h2>
+      <p>Our most popular services on social media.</p>
+      <div class="tiles">
+        <div class="tile instagram">
+          <span>Instagram<br>Services</span>
+          <b class="tile-icon" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="4" y="4" width="16" height="16" rx="5"></rect>
+              <circle cx="12" cy="12" r="3.7"></circle>
+              <circle cx="17.4" cy="6.6" r="1"></circle>
+            </svg>
+          </b>
+        </div>
+        <div class="tile twitter">
+          <span>Twitter (X)<br>Services</span>
+          <b class="tile-icon" aria-label="X">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M5 4L19 20M19 4L5 20"></path>
+            </svg>
+          </b>
+        </div>
+        <div class="tile youtube">
+          <span>Youtube<br>Services</span>
+          <b class="tile-icon" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3.5" y="6.5" width="17" height="11" rx="3"></rect>
+              <path d="M10 9.4L15 12L10 14.6Z"></path>
+            </svg>
+          </b>
+        </div>
+        <div class="tile facebook">
+          <span>Facebook<br>Services</span>
+          <b class="tile-icon" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M13.5 20V12.8H16.2L16.6 10H13.5V8.2C13.5 7.3 14 6.8 15 6.8H16.7V4.3C16.4 4.2 15.6 4 14.3 4C11.7 4 10 5.5 10 8.3V10H7.5V12.8H10V20Z"></path>
+            </svg>
+          </b>
+        </div>
+        <div class="tile other">
+          <span>Other<br>Services</span>
+          <b class="tile-icon" aria-label="More">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M6 12H18M13 7L18 12L13 17"></path>
+            </svg>
+          </b>
         </div>
       </div>
-      <nav class="navbar container">
-        <div class="logo"><span>&#10041;</span>BOOST<span>GRAMS</span></div>
-        <ul class="nav-links">
-          <li>Home</li>
-          <li>Services &#709;</li>
-          <li>Organic Growth &#709;</li>
-          <li>BoostBlog</li>
-          <li>Free Tools &#709;</li>
-        </ul>
-        <div class="actions">
-          <button class="icon-btn">&#128276;<small>1</small></button>
-          <button class="icon-btn">&#128722;<small>0</small></button>
-          <button class="login">&#8680; Login</button>
-        </div>
-      </nav>
-    </header>
-
-    <main class="container">
-      <section class="hero-grid">
-        <article class="hero-card main-card">
-          <div class="left-content">
-            <p class="tag">&#9881; Buy Instagram Followers</p>
-            <h1>
-              BoostGrams Power!<br />
-              <span>Place your order quickly!</span>
-            </h1>
-            <p class="subtext">
-              Reach your target number of followers in minutes with our fast
-              service infrastructure!
-            </p>
-            <form>
-              <div class="fake-select">Social Media Platform <span>&#709;</span></div>
-              <div class="fake-select dim">Select Category <span>&#709;</span></div>
-              <div class="fake-select dim">Choose a Package <span>&#709;</span></div>
-              <button class="review" type="button">Review the packages</button>
-            </form>
-          </div>
-          <div class="hero-figure">
-            <div class="blob"></div>
-            <div class="avatar">&#128105;</div>
-          </div>
-        </article>
-
-        <article class="hero-card side-card">
-          <h3>YouTube Services<br /><span>Explore All</span></h3>
-          <div class="small-figure">
-            <div class="small-blob orange"></div>
-            <div class="avatar mini">&#128105;</div>
-          </div>
-        </article>
-
-        <article class="hero-card side-card">
-          <h3>Free Tools<br /><span class="orange-text">Use Freely!</span></h3>
-          <div class="small-figure">
-            <div class="small-blob purple"></div>
-            <div class="avatar mini">&#128105;</div>
-          </div>
-        </article>
-      </section>
-
-      <section class="services">
-        <h2>Social Media <span>Services</span></h2>
-        <p>Our most popular services on social media.</p>
-        <div class="service-grid">
-          <div class="service ig">Instagram <small>Services</small> <i>&#9673;</i></div>
-          <div class="service tw">Twitter (X) <small>Services</small> <i>&#10005;</i></div>
-          <div class="service yt">Youtube <small>Services</small> <i>&#9654;</i></div>
-          <div class="service fb">Facebook <small>Services</small> <i>f</i></div>
-          <div class="service other">Other <small>Services</small> <i>&#10140;</i></div>
-        </div>
-      </section>
-    </main>
-  </body>
+    </section>
+  </main>
+</body>
 </html>
